@@ -1,0 +1,3 @@
+/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/OptiPrice.dir
+/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/edit_cache.dir
+/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/rebuild_cache.dir
