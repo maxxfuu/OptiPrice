@@ -1,7 +1,8 @@
 #ifndef OPTION_PRICER
 #define OPTION_PRICER 
 
-#include <string>  
+#include <string> 
+#include <pqxx/pqxx>  
 
 struct Option{
     
@@ -15,6 +16,8 @@ struct Option{
     std::string typeOfOption;    
     
 };
+
+bool connectToDatabase() {}; 
 
 double calculateCallPrice(const Option &opt); 
 double calculatePutPrice(const Option &opt); 

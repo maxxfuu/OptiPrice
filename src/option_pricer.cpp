@@ -1,6 +1,14 @@
 #include "option_pricer.h"
 #include <cmath>
 
+bool connectToDatabase() {
+    try {
+
+    } catch {
+
+    }
+}
+
 // Helper functions to calculate d1 and d2
 double calculateD1(const Option &opt) {
     return (log(opt.stockPrice / opt.strikePrice) + (opt.riskFreeInterestRate + 0.5 * opt.volatility * opt.volatility) * opt.timeToExpiration) 
