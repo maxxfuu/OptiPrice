@@ -1,7 +1,6 @@
 CMakeFiles/OptiPrice.dir/src/main.cpp.o: \
   /Users/maxfu/Desktop/code/OptiPrice/src/main.cpp \
-  /Users/maxfu/Desktop/code/OptiPrice/src/option_pricer.cpp \
-  /Users/maxfu/Desktop/code/OptiPrice/src/option_pricer.h \
+  /Users/maxfu/Desktop/code/OptiPrice/include/option_pricer.h \
   /opt/homebrew/Cellar/llvm/19.1.2/bin/../include/c++/v1/string \
   /opt/homebrew/Cellar/llvm/19.1.2/bin/../include/c++/v1/__algorithm/max.h \
   /opt/homebrew/Cellar/llvm/19.1.2/bin/../include/c++/v1/__algorithm/comp.h \
@@ -897,4 +896,6 @@ CMakeFiles/OptiPrice.dir/src/main.cpp.o: \
   /opt/homebrew/Cellar/llvm/19.1.2/bin/../include/c++/v1/chrono \
   /opt/homebrew/Cellar/llvm/19.1.2/bin/../include/c++/v1/forward_list \
   /opt/homebrew/include/pqxx/transactor.hxx \
-  /opt/homebrew/include/pqxx/internal/header-post.hxx
+  /opt/homebrew/include/pqxx/internal/header-post.hxx \
+  /Users/maxfu/Desktop/code/OptiPrice/include/user_auth.h \
+  /opt/homebrew/Cellar/llvm/19.1.2/bin/../include/c++/v1/iostream

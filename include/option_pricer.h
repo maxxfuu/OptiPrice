@@ -17,7 +17,7 @@ struct Option{
     
 };
 
-bool connectToDatabase() {}; 
+bool connectToDatabase(); 
 
 double calculateCallPrice(const Option &opt); 
 double calculatePutPrice(const Option &opt); 

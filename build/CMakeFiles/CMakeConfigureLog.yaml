@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Darwin - 23.6.0 - arm64
   -
@@ -14,7 +14,7 @@ events:
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: /opt/homebrew/opt/llvm/bin/clang 
@@ -36,7 +36,7 @@ events:
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
@@ -57,12 +57,12 @@ events:
     backtrace:
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-V8VsjK"
-      binary: "/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-V8VsjK"
+      source: "/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-8ZEpve"
+      binary: "/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-8ZEpve"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/opt/homebrew/Cellar/llvm/19.1.2/bin/clang-scan-deps"
       CMAKE_C_FLAGS: ""
@@ -75,20 +75,20 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-V8VsjK'
+        Change Dir: '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-8ZEpve'
         
-        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_1a9a7/fast
-        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_1a9a7.dir/build.make CMakeFiles/cmTC_1a9a7.dir/build
-        gmake[1]: Entering directory '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-V8VsjK'
-        Building C object CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o
-        /opt/homebrew/opt/llvm/bin/clang   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6   -v -Wl,-v -MD -MT CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_b9f6c/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_b9f6c.dir/build.make CMakeFiles/cmTC_b9f6c.dir/build
+        gmake[1]: Entering directory '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-8ZEpve'
+        Building C object CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/opt/llvm/bin/clang   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c
         Homebrew clang version 19.1.2
         Target: arm64-apple-darwin23.6.0
         Thread model: posix
         InstalledDir: /opt/homebrew/Cellar/llvm/19.1.2/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
          (in-process)
-         "/opt/homebrew/Cellar/llvm/19.1.2/bin/clang-19" -cc1 -triple arm64-apple-macosx14.6.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=15.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.4a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-V8VsjK -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-V8VsjK -resource-dir /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19 -dependency-file CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c
+         "/opt/homebrew/Cellar/llvm/19.1.2/bin/clang-19" -cc1 -triple arm64-apple-macosx14.6.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=15.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.4a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-8ZEpve -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-8ZEpve -resource-dir /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19 -dependency-file CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 19.1.2 based upon LLVM 19.1.2 default target arm64-apple-darwin23.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/Library/Frameworks"
@@ -98,14 +98,14 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_1a9a7
-        /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a9a7.dir/link.txt --verbose=1
-        /opt/homebrew/opt/llvm/bin/clang  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl,-v CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o -o cmTC_1a9a7
+        Linking C executable cmTC_b9f6c
+        /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9f6c.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm/bin/clang  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl,-v CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o -o cmTC_b9f6c
         Homebrew clang version 19.1.2
         Target: arm64-apple-darwin23.6.0
         Thread model: posix
         InstalledDir: /opt/homebrew/Cellar/llvm/19.1.2/bin
-         "/opt/anaconda3/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/19.1.2/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.6.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_1a9a7 -L/opt/homebrew/opt/llvm/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o -lSystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/lib/darwin/libclang_rt.osx.a
+         "/opt/anaconda3/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/19.1.2/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.6.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b9f6c -L/opt/homebrew/opt/llvm/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o -lSystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld  PROJECT:ld64-530
         BUILD 07:38:32 Sep  7 2022
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
@@ -114,7 +114,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks/
-        gmake[1]: Leaving directory '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-V8VsjK'
+        gmake[1]: Leaving directory '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-8ZEpve'
         
       exitCode: 0
   -
@@ -122,7 +122,7 @@ events:
     backtrace:
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Effective list of requested architectures (possibly empty)  : ""
       Effective list of architectures found in the ABI info binary: "arm64"
@@ -131,7 +131,7 @@ events:
     backtrace:
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
@@ -149,25 +149,25 @@ events:
     backtrace:
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-V8VsjK']
+        ignore line: [Change Dir: '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-8ZEpve']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_1a9a7/fast]
-        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_1a9a7.dir/build.make CMakeFiles/cmTC_1a9a7.dir/build]
-        ignore line: [gmake[1]: Entering directory '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-V8VsjK']
-        ignore line: [Building C object CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/opt/homebrew/opt/llvm/bin/clang   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6   -v -Wl -v -MD -MT CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_b9f6c/fast]
+        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_b9f6c.dir/build.make CMakeFiles/cmTC_b9f6c.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-8ZEpve']
+        ignore line: [Building C object CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/opt/homebrew/opt/llvm/bin/clang   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6   -v -Wl -v -MD -MT CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Homebrew clang version 19.1.2]
         ignore line: [Target: arm64-apple-darwin23.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /opt/homebrew/Cellar/llvm/19.1.2/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ (in-process)]
-        ignore line: [ "/opt/homebrew/Cellar/llvm/19.1.2/bin/clang-19" -cc1 -triple arm64-apple-macosx14.6.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=15.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.4a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-V8VsjK -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-V8VsjK -resource-dir /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19 -dependency-file CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/opt/homebrew/Cellar/llvm/19.1.2/bin/clang-19" -cc1 -triple arm64-apple-macosx14.6.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=15.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.4a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-8ZEpve -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-8ZEpve -resource-dir /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19 -dependency-file CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 19.1.2 based upon LLVM 19.1.2 default target arm64-apple-darwin23.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/Library/Frameworks"]
@@ -177,14 +177,14 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_1a9a7]
-        ignore line: [/opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a9a7.dir/link.txt --verbose=1]
-        ignore line: [/opt/homebrew/opt/llvm/bin/clang  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6 -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl -v CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o -o cmTC_1a9a7]
+        ignore line: [Linking C executable cmTC_b9f6c]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9f6c.dir/link.txt --verbose=1]
+        ignore line: [/opt/homebrew/opt/llvm/bin/clang  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6 -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl -v CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o -o cmTC_b9f6c]
         ignore line: [Homebrew clang version 19.1.2]
         ignore line: [Target: arm64-apple-darwin23.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /opt/homebrew/Cellar/llvm/19.1.2/bin]
-        link line: [ "/opt/anaconda3/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/19.1.2/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.6.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_1a9a7 -L/opt/homebrew/opt/llvm/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o -lSystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/opt/anaconda3/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/19.1.2/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.6.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b9f6c -L/opt/homebrew/opt/llvm/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o -lSystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/lib/darwin/libclang_rt.osx.a]
           arg [/opt/anaconda3/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -201,12 +201,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_1a9a7] ==> ignore
+          arg [cmTC_b9f6c] ==> ignore
           arg [-L/opt/homebrew/opt/llvm/lib] ==> dir [/opt/homebrew/opt/llvm/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_1a9a7.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_b9f6c.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/lib/darwin/libclang_rt.osx.a] ==> lib [/opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /opt/anaconda3/bin/ld
@@ -230,7 +230,7 @@ events:
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "/opt/anaconda3/bin/ld" "-v"
       @(#)PROGRAM:ld  PROJECT:ld64-530
@@ -243,12 +243,12 @@ events:
     backtrace:
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-tbFDsV"
-      binary: "/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-tbFDsV"
+      source: "/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-MaphI2"
+      binary: "/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-MaphI2"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/opt/homebrew/Cellar/llvm/19.1.2/bin/clang-scan-deps"
       CMAKE_CXX_FLAGS: ""
@@ -262,20 +262,20 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-tbFDsV'
+        Change Dir: '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-MaphI2'
         
-        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_d8450/fast
-        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_d8450.dir/build.make CMakeFiles/cmTC_d8450.dir/build
-        gmake[1]: Entering directory '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-tbFDsV'
-        Building CXX object CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o
-        /opt/homebrew/opt/llvm/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6   -v -Wl,-v -MD -MT CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_6c318/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_6c318.dir/build.make CMakeFiles/cmTC_6c318.dir/build
+        gmake[1]: Entering directory '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-MaphI2'
+        Building CXX object CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/homebrew/opt/llvm/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6   -v -Wl,-v -MD -MT CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Homebrew clang version 19.1.2
         Target: arm64-apple-darwin23.6.0
         Thread model: posix
         InstalledDir: /opt/homebrew/Cellar/llvm/19.1.2/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
          (in-process)
-         "/opt/homebrew/Cellar/llvm/19.1.2/bin/clang-19" -cc1 -triple arm64-apple-macosx14.6.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=15.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.4a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-tbFDsV -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-tbFDsV -resource-dir /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19 -dependency-file CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -internal-isystem /opt/homebrew/Cellar/llvm/19.1.2/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/opt/homebrew/Cellar/llvm/19.1.2/bin/clang-19" -cc1 -triple arm64-apple-macosx14.6.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=15.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.4a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-MaphI2 -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-MaphI2 -resource-dir /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19 -dependency-file CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -internal-isystem /opt/homebrew/Cellar/llvm/19.1.2/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 19.1.2 based upon LLVM 19.1.2 default target arm64-apple-darwin23.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/Library/Frameworks"
@@ -286,14 +286,14 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_d8450
-        /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8450.dir/link.txt --verbose=1
-        /opt/homebrew/opt/llvm/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl,-v CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d8450
+        Linking CXX executable cmTC_6c318
+        /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c318.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl,-v CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6c318
         Homebrew clang version 19.1.2
         Target: arm64-apple-darwin23.6.0
         Thread model: posix
         InstalledDir: /opt/homebrew/Cellar/llvm/19.1.2/bin
-         "/opt/anaconda3/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/19.1.2/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.6.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_d8450 -L/opt/homebrew/opt/llvm/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/lib/darwin/libclang_rt.osx.a
+         "/opt/anaconda3/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/19.1.2/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.6.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_6c318 -L/opt/homebrew/opt/llvm/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld  PROJECT:ld64-530
         BUILD 07:38:32 Sep  7 2022
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
@@ -302,7 +302,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks/
-        gmake[1]: Leaving directory '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-tbFDsV'
+        gmake[1]: Leaving directory '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-MaphI2'
         
       exitCode: 0
   -
@@ -310,7 +310,7 @@ events:
     backtrace:
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Effective list of requested architectures (possibly empty)  : ""
       Effective list of architectures found in the ABI info binary: "arm64"
@@ -319,7 +319,7 @@ events:
     backtrace:
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -339,25 +339,25 @@ events:
     backtrace:
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-tbFDsV']
+        ignore line: [Change Dir: '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-MaphI2']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_d8450/fast]
-        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_d8450.dir/build.make CMakeFiles/cmTC_d8450.dir/build]
-        ignore line: [gmake[1]: Entering directory '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-tbFDsV']
-        ignore line: [Building CXX object CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/opt/homebrew/opt/llvm/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6   -v -Wl -v -MD -MT CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_6c318/fast]
+        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_6c318.dir/build.make CMakeFiles/cmTC_6c318.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-MaphI2']
+        ignore line: [Building CXX object CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/homebrew/opt/llvm/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6   -v -Wl -v -MD -MT CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Homebrew clang version 19.1.2]
         ignore line: [Target: arm64-apple-darwin23.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /opt/homebrew/Cellar/llvm/19.1.2/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ (in-process)]
-        ignore line: [ "/opt/homebrew/Cellar/llvm/19.1.2/bin/clang-19" -cc1 -triple arm64-apple-macosx14.6.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=15.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.4a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-tbFDsV -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-tbFDsV -resource-dir /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19 -dependency-file CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -internal-isystem /opt/homebrew/Cellar/llvm/19.1.2/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/opt/homebrew/Cellar/llvm/19.1.2/bin/clang-19" -cc1 -triple arm64-apple-macosx14.6.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=15.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.4a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-MaphI2 -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/maxfu/Desktop/code/OptiPrice/build/CMakeFiles/CMakeScratch/TryCompile-MaphI2 -resource-dir /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19 -dependency-file CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -internal-isystem /opt/homebrew/Cellar/llvm/19.1.2/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 19.1.2 based upon LLVM 19.1.2 default target arm64-apple-darwin23.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/Library/Frameworks"]
@@ -368,14 +368,14 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_d8450]
-        ignore line: [/opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8450.dir/link.txt --verbose=1]
-        ignore line: [/opt/homebrew/opt/llvm/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6 -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl -v CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d8450]
+        ignore line: [Linking CXX executable cmTC_6c318]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c318.dir/link.txt --verbose=1]
+        ignore line: [/opt/homebrew/opt/llvm/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6 -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl -v CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6c318]
         ignore line: [Homebrew clang version 19.1.2]
         ignore line: [Target: arm64-apple-darwin23.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /opt/homebrew/Cellar/llvm/19.1.2/bin]
-        link line: [ "/opt/anaconda3/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/19.1.2/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.6.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_d8450 -L/opt/homebrew/opt/llvm/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/opt/anaconda3/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/19.1.2/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.6.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_6c318 -L/opt/homebrew/opt/llvm/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/lib/darwin/libclang_rt.osx.a]
           arg [/opt/anaconda3/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -392,12 +392,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_d8450] ==> ignore
+          arg [cmTC_6c318] ==> ignore
           arg [-L/opt/homebrew/opt/llvm/lib] ==> dir [/opt/homebrew/opt/llvm/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_d8450.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_6c318.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/lib/darwin/libclang_rt.osx.a] ==> lib [/opt/homebrew/Cellar/llvm/19.1.2/lib/clang/19/lib/darwin/libclang_rt.osx.a]
@@ -422,7 +422,7 @@ events:
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
       - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "/opt/anaconda3/bin/ld" "-v"
       @(#)PROGRAM:ld  PROJECT:ld64-530

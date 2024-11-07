@@ -4,7 +4,7 @@
 # compile CXX with /opt/homebrew/opt/llvm/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/maxfu/Desktop/code/OptiPrice/include -I/opt/homebrew/include
+CXX_INCLUDES = -I/Users/maxfu/Desktop/code/OptiPrice/include -I/opt/homebrew/include -I/opt/homebrew/opt/libpq/include -isystem /opt/homebrew/include/postgresql@14 -isystem /opt/homebrew/include/postgresql@14/server
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.6
 
