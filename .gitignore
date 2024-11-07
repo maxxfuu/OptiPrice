@@ -1,2 +1,2 @@
 src/option_pricer.cpp
-build/*.o
+/build/
