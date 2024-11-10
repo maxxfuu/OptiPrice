@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "pqxx": "cpp",
+        "ostream": "cpp",
+        "string": "cpp"
+    }
+}

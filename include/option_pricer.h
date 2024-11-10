@@ -1,23 +1,19 @@
+class OptionPricer {
+    public: 
+        OptionPricer() {
+
+        } 
+    private:
+
+}; 
+
+
+
 #ifndef OPTION_PRICER
 #define OPTION_PRICER 
 
 #include <string> 
 #include <pqxx/pqxx>  
-
-struct Option{
-    
-    std::string optionId; 
-    
-    double stockPrice;           
-    double strikePrice;         
-    double timeToExpiration;     
-    double riskFreeInterestRate;
-    double volatility;           
-    std::string typeOfOption;    
-    
-};
-
-bool connectToDatabase(); 
 
 double calculateCallPrice(const Option &opt); 
 double calculatePutPrice(const Option &opt); 
