@@ -1,10 +1,10 @@
-#include "option_pricer.h" 
-#include "user_auth.h" 
+#include "databaseConnection.h" 
+#include "userAuth.h" 
 #include <iostream> 
 
 int main() {
    
    connectToDatabase();  
     
-    return 0;  
+    return 0; 
 }

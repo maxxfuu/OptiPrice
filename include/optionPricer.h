@@ -1,25 +1,18 @@
-class OptionPricer {
-    public: 
-        OptionPricer() {
-
-        } 
-    private:
-
-}; 
-
-
 
 #ifndef OPTION_PRICER
 #define OPTION_PRICER 
 
-#include <string> 
-#include <pqxx/pqxx>  
+#include "option.h"
 
-double calculateCallPrice(const Option &opt); 
-double calculatePutPrice(const Option &opt); 
+class OptionPricer {
+    public:  
+        double calculateCallPrice(const Option &opt); 
+        double calculatePutPrice(const Option &opt); 
 
-double calculateD1(const Option &opt); 
-double calculateD2(double d1, double volatility, double timeToExpiration); 
+        double calculateD1(const Option &opt); 
+        double calculateD2(double d1, double volatility, double timeToExpiration); 
+
+};
 
 #endif
 
