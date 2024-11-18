@@ -6,7 +6,7 @@
 struct User {
     std::string userId; 
     std::string username;
-    std::string pasword; 
+    std::string password; 
 }; 
 
 #endif 
